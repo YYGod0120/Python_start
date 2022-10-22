@@ -1,0 +1,5 @@
+print('Hello World')
+a = int(input('请输入长方形的长：'))
+b = int(input('请输入长方形的宽：'))
+c = int(input('请输入长方形的高：'))
+print(f'长方形的表面积是：{2*a*a+2*b*b+2*c*c}')

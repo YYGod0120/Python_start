@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>组合选择器</title>
+    <style type="text/css">
+    #first{background-color:red;border:3px dashed black}
+    #second{background-color:yellow;padding:40px}
+    #third{background-color:blue;padding:50px;border:3px dashed black}
+    #second p {background-color:black}
+    #third > h3 {color:orange}
+    h1,p {color:blue}
+    </style>
+</head>
+<body>
+<div id="first">
+    <h1>第一层</h1>
+    <p>xxxx</p>
+    <div id="second">
+        <h2>第二层</h2>
+        <p>sssss</p>
+        <div id="third">
+            <h3>第三层</h3>
+            <p>qqqqq</p>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
